@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_host.xml"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/charactersListFragment">
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.example.samplegraphql.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        android:id="@+id/charactersListFragment"
+        android:name="com.example.samplegraphql.ui.CharactersListFragment"
+        android:label="CharactersListFragment" >
+        <action
+            android:id="@+id/action_charactersListFragment_to_characterDetailsFragment"
+            app:destination="@id/characterDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDetailsFragment"
+        android:name="com.example.samplegraphql.ui.CharacterDetailsFragment"
+        android:label="CharacterDetailsFragment">
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
 </navigation>

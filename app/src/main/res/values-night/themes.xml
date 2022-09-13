@@ -1,16 +1,22 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Theme.SampleGraphQL" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <style name="Theme.SampleGraphQL" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/feedback_premium_dark</item> <!-- Color Toolbar Main color -->
+        <item name="colorPrimaryDark">@color/feedback_premium_dark</item> <!-- Color status bar -->
+        <item name="colorPrimaryVariant">@color/feedback_premium_medium</item> <!-- Color status bar -->
+        <item name="colorOnPrimary">@color/feedback_premium_light</item> <!-- Color status bar -->
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/feedback_premium_dark</item> <!-- Color status bar -->
+        <item name="colorSecondaryVariant">@color/feedback_premium_light</item> <!-- Color status bar -->
+        <item name="colorOnSecondary">@color/feedback_premium_light</item> <!-- Color status bar -->
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item> <!-- Color status bar -->
     </style>
+
+    <style name="roundedImageView" parent="Theme.SampleGraphQL">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
 </resources>
