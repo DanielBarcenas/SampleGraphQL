@@ -2,7 +2,6 @@ package com.example.samplegraphql.data.repository
 
 import com.apollographql.apollo3.api.ApolloResponse
 import com.example.samplegraphql.data.network.RickAndMortyApi
-
 import com.example.samplegraphql.queries.CharacterQuery
 import com.example.samplegraphql.queries.CharactersListQuery
 import javax.inject.Inject

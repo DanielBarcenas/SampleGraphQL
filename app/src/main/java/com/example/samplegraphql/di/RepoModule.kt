@@ -10,9 +10,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object RepoModule {
-
     @Singleton
     @Provides
     fun provideWebService() = RickAndMortyApi()
-
 }

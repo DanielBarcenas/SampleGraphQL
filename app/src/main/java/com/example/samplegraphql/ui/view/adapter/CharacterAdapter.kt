@@ -1,4 +1,4 @@
-package com.example.samplegraphql.ui.adapter
+package com.example.samplegraphql.ui.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

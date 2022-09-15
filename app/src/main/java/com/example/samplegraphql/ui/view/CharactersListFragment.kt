@@ -1,4 +1,4 @@
-package com.example.samplegraphql.ui
+package com.example.samplegraphql.ui.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,12 +8,11 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.samplegraphql.databinding.FragmentCharactersListBinding
-import com.example.samplegraphql.ui.adapter.CharacterAdapter
+import com.example.samplegraphql.ui.view.adapter.CharacterAdapter
 import com.example.samplegraphql.ui.state.ViewState
 import com.example.samplegraphql.ui.viewmodel.CharacterViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-
 
 @ExperimentalCoroutinesApi
 @AndroidEntryPoint

@@ -16,7 +16,6 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-
 @ExperimentalCoroutinesApi
 @HiltViewModel
 class CharacterViewModel @Inject constructor(

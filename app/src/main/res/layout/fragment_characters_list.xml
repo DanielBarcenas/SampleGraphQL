@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.CharactersListFragment">
+    tools:context=".ui.view.CharactersListFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/characters_rv"
@@ -35,7 +35,7 @@
         style="@style/Base.TextAppearance.AppCompat.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Zero characters found"
+        android:text="@string/tv_zero_characters_found"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

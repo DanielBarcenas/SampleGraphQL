@@ -2,4 +2,6 @@
     <string name="app_name">SampleGraphQL</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_no_character_details_found">No, character details found!</string>
+    <string name="tv_zero_characters_found">Zero characters found</string>
 </resources>
